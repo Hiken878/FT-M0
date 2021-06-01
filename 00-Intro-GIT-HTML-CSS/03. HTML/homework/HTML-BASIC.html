@@ -2,39 +2,54 @@
     <head>
         <title style="text-align:center">"Tarea HTML de Alejandro Ramirez"</title>
         <style>
-            p {
-                color:red;
-                font-size: 30px;
-            }
-            span {
-                color: brown;
+            h1 {
+                color:teal;
+            } 
+            img {
+                width: 400px;
+                height: 300px;
+            } 
+            #thirdDiv {  
+        width: 500px; 
+        height: 600px; 
+        text-align: center;
+        background-color: silver;
+        padding: 50px;
+        border: solid 6px steelblue;
+            } 
+              #spanId {
+           font-size: 18px;
+           margin: 50px;
+       } 
             }
         </style>
     </head>
 <body background="https://media.istockphoto.com/vectors/sea-wave-seamless-pattern-white-and-gray-background-vector-vector-id1127558497">
-   <div1 style="text-align:center"> 
-    <h1>"Alejandro Ramirez"</h1>
+   <div style="text-align:center" class="divClass"> 
+    <h1>"Alejandro Ramirez" </h1>
     <h3>"Henry"</h3>
     <h4>"Tarea de HTML / CSS"</h4>
-   </div1> 
-   <div2 style="text-align:justify"> Mi comida favorita el Ramen 
-    <span> 
-       <a href="http://www.sukiya.mx/"> Link a Sukiya</a> 
+   </div> 
+   
+   <div style="text-align:center" class="divClass" > Mi comida favorita es el Ramen 
+    <span id="spanId"> 
+       <a href="http://www.sukiya.mx/"> Link a Sukiya</a>
     </span> 
-    </div2>
-   <div3 style="text-align:center" id="thirdDiv">
-       <p>Platillos</p>
+    </div>
+
+    <div id="thirdDiv">
+       <p>PLATILLOS</p>
        <ul>
            <li>Ramen de Carne
-               <p> <img scr="https://t1.rg.ltmcdn.com/es/images/2/7/6/img_ramen_34672_600.jpg" /> </p>
+               <p><img scr="https://t1.rg.ltmcdn.com/es/images/2/7/6/img_ramen_34672_600.jpg" /> </p>
             </li>
            <li>Ramen de Pollo
-               <img src="https://d1uz88p17r663j.cloudfront.net/original/95f65b0e9e90295a6c941b85e35cfc0c_Chicken_Ramen.jpg" />
+               <p><img src="https://d1uz88p17r663j.cloudfront.net/original/95f65b0e9e90295a6c941b85e35cfc0c_Chicken_Ramen.jpg" /> </p>
            </li>
            <li>Ramen de Camaron
-               <img src="https://cdn2.cocinadelirante.com/sites/default/files/images/2020/03/como-hacer-ramen-de-camaron.jpg" />
+               <p><img src="https://cdn2.cocinadelirante.com/sites/default/files/images/2020/03/como-hacer-ramen-de-camaron.jpg" /></p>
            </li>
        </ul>
-   </div3>
+   </div>
 </body>
 </html>
