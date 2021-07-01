@@ -1,0 +1,11 @@
+for
+La expresion "for" es una expresion condicional la cual forma un bucle para que una variable sea repetida un numero n de veces.
+
+&&,
+Es un operador logico en el cual evaluara dos expresiones y devolvera la expresion "true" solo si ambas expresiones que se encuentren dentro de la expresion && son verdaderas, de lo contrario devolvera el resultado false
+
+||,
+el operador logico "OR" evalua dos expresiones y devuelve el resultado de "true" solo si una de ambas expresiones es verdadera, por lo que se puede ejecutar el codigo
+
+!
+es un operador logico denominado "NOT", el cual devolvera el valor contrario del que se este expresando
